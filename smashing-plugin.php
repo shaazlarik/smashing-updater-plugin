@@ -5,7 +5,7 @@
 * Author: Smashing Plugin
 * Author URI: https://github.com/shaazlarik/smashing-updater-plugin
 * Description: Adding one click purchase feature
-* Version: 1.0.2
+* Version: 1.0.3
 * Licence: GPL2 or Later
 * License URL: http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 * Text Domain: smashing-updater-plugin
