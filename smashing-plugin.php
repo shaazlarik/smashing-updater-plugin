@@ -1,11 +1,15 @@
-<?php 
-/*
-	Plugin Name: Smashing Plugin
-	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.1
-	Author: Matthew Ray
-	Author URI: http://www.matthewray.com
-*/
+<?php
+/**
+* Plugin Name: Smashing Plugin
+* Plugin URI: https://github.com/shaazlarik/smashing-updater-plugin
+* Author: Smashing Plugin
+* Author URI: https://github.com/shaazlarik/smashing-updater-plugin
+* Description: Adding one click purchase feature
+* Version: 1.0.2
+* Licence: GPL2 or Later
+* License URL: http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+* Text Domain: smashing-updater-plugin
+**/
 
 include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
 
