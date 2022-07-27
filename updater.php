@@ -58,7 +58,9 @@ class Smashing_Updater {
 			}
 
 			if( $this->authorize_token ) { // Is there an access token?
-				 $response['zipball_url'] = sprintf( '%s?access_token=%s', $response['zipball_url'], $this->authorize_token ); // Update our zip url with token
+				 //$response['zipball_url'] = sprintf( '%s?access_token=%s', $response['zipball_url'], $this->authorize_token ); // Update our zip url with token
+				 $response['zipball_url'] = add_query_arg( 'access_token', $this->authorize_token, $response['zipball_url'] ); // Update our zip url with token
+        }
 			}
 
 			$this->github_response = $response; // Set it to our property			 
