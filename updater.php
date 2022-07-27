@@ -118,7 +118,7 @@ class Smashing_Updater {
 						'Description'	=> $this->plugin["Description"],
 						'Updates'		=> $this->github_response['body']
 					),
-					'download_link'		=> $this->github_response['zipball_url']
+					'download_link'		=> $this->github_response['zipball_url'],
 				);
 
 				return (object) $plugin; // Return the data
